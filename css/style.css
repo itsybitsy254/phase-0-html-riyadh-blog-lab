@@ -6,11 +6,9 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  background-color: black;
+  color: white;
+  
 }
 
 .wrapper {
@@ -21,11 +19,11 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(10, 10, 10, 0.85);
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Arial', sans-serif;
   color: #b38f8f;
 }
 
@@ -40,7 +38,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 1.5em;
   margin-top: .5em;
 }
@@ -52,11 +50,11 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 a {
-  color: black;
+  color: rgb(5, 66, 85);
   text-decoration: none;
 }
 
